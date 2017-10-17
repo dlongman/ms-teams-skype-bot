@@ -9,5 +9,5 @@ install:
 deploy:
   provider: script
   script: npm run azure-publish
-      on:
-        branch: master
+    on:
+    branch: master
