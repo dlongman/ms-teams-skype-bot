@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+  - '6'
+
+install:
+  - npm install
+
+deploy:
+  provider: script
+  script: npm run azure-publish
+      on:
+        branch: master
